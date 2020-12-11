@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.XIB" version="3.0" toolsVersion="17503.1" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="appleTV" appearance="light"/>
+    <dependencies>
+        <deployment identifier="tvOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17502"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="EricaOne-Regular.ttf">
+            <string>EricaOne-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="234" id="fBs-An-CcD" customClass="RanKingMax_TableViewCell" customModule="applTv" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="1204" height="234"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fBs-An-CcD" id="S0Q-fX-qc8">
+                <rect key="frame" x="0.0" y="0.0" width="1204" height="234"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="Frame23_TableViewCell" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ApU-IF-MbU">
+                        <rect key="frame" x="10" y="79.5" width="128" height="75"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="128" id="0Sp-th-lXF"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="EricaOne-Regular" family="Erica One" pointSize="50"/>
+                        <color key="textColor" systemColor="systemGreenColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DBI-Wt-GXu">
+                        <rect key="frame" x="1046" y="87" width="128" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="128" id="8GH-PL-CEi"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="128" id="nTy-qs-bmw"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="EricaOne-Regular" family="Erica One" pointSize="40"/>
+                        <color key="textColor" systemColor="systemTealColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nkt-hP-vkq">
+                        <rect key="frame" x="148" y="72" width="90" height="90"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="CwZ-gE-lBS"/>
+                            <constraint firstAttribute="height" constant="90" id="DzK-7A-SAl"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CXP-NA-DtX">
+                        <rect key="frame" x="962" y="88" width="58" height="58"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="58" id="41f-jo-HaR"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="58" id="BvZ-dZ-cX2"/>
+                            <constraint firstAttribute="height" constant="58" id="IgJ-rG-Bii"/>
+                            <constraint firstAttribute="width" constant="58" id="NXp-Pk-iYA"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bYz-xR-xVO">
+                        <rect key="frame" x="883" y="85.5" width="53" height="63"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="63" id="mtK-p9-xds"/>
+                            <constraint firstAttribute="width" constant="53" id="y2C-lM-se7"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tom braum" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cC2-1h-Rmv">
+                        <rect key="frame" x="264" y="75" width="593" height="84"/>
+                        <fontDescription key="fontDescription" name="EricaOne-Regular" family="Erica One" pointSize="56"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="CXP-NA-DtX" firstAttribute="centerY" secondItem="S0Q-fX-qc8" secondAttribute="centerY" id="1W7-vE-pyz"/>
+                    <constraint firstItem="cC2-1h-Rmv" firstAttribute="centerY" secondItem="S0Q-fX-qc8" secondAttribute="centerY" id="2QZ-8s-Hjg"/>
+                    <constraint firstItem="ApU-IF-MbU" firstAttribute="centerY" secondItem="S0Q-fX-qc8" secondAttribute="centerY" id="BTR-ag-2IN"/>
+                    <constraint firstItem="bYz-xR-xVO" firstAttribute="centerY" secondItem="S0Q-fX-qc8" secondAttribute="centerY" id="Bpd-Kw-zni"/>
+                    <constraint firstItem="DBI-Wt-GXu" firstAttribute="centerY" secondItem="S0Q-fX-qc8" secondAttribute="centerY" id="S22-wM-r4Z"/>
+                    <constraint firstItem="nkt-hP-vkq" firstAttribute="leading" secondItem="ApU-IF-MbU" secondAttribute="trailing" constant="10" id="VqT-MH-fJL"/>
+                    <constraint firstItem="bYz-xR-xVO" firstAttribute="leading" secondItem="cC2-1h-Rmv" secondAttribute="trailing" constant="26" id="aPy-CM-URW"/>
+                    <constraint firstItem="cC2-1h-Rmv" firstAttribute="leading" secondItem="nkt-hP-vkq" secondAttribute="trailing" constant="26" id="cdY-SJ-CLj"/>
+                    <constraint firstItem="DBI-Wt-GXu" firstAttribute="leading" secondItem="CXP-NA-DtX" secondAttribute="trailing" constant="26" id="g4b-pW-05o"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="DBI-Wt-GXu" secondAttribute="trailing" constant="10" id="qSV-Ip-A31"/>
+                    <constraint firstItem="ApU-IF-MbU" firstAttribute="leading" secondItem="S0Q-fX-qc8" secondAttribute="leading" constant="10" id="rfV-2L-erx"/>
+                    <constraint firstItem="CXP-NA-DtX" firstAttribute="leading" secondItem="bYz-xR-xVO" secondAttribute="trailing" constant="26" id="rmT-sf-aQ9"/>
+                    <constraint firstItem="nkt-hP-vkq" firstAttribute="centerY" secondItem="S0Q-fX-qc8" secondAttribute="centerY" id="vOj-dS-Zqs"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="1ks-Xo-ai1"/>
+            <connections>
+                <outlet property="avatarImage" destination="nkt-hP-vkq" id="flQ-PD-5mw"/>
+                <outlet property="goldCupImage" destination="bYz-xR-xVO" id="pXd-YZ-35E"/>
+                <outlet property="name" destination="cC2-1h-Rmv" id="SBx-46-s8T"/>
+                <outlet property="ratingsLabel" destination="ApU-IF-MbU" id="uzn-aq-LkF"/>
+                <outlet property="scoresLabel" destination="DBI-Wt-GXu" id="R1c-2w-6lF"/>
+                <outlet property="starImage" destination="CXP-NA-DtX" id="sHo-bM-Ab3"/>
+            </connections>
+            <point key="canvasLocation" x="19" y="-315"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
